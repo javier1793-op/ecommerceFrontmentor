@@ -8,3 +8,13 @@
   --White-main: hsl(0, 0%, 100%);
   --Black-main: hsl(0, 0%, 0%); 
 }
+
+main{
+  min-width: 100vw;
+  min-height: 100vh;
+  background: var(--White-main);
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  font-size: 16px;
+}
