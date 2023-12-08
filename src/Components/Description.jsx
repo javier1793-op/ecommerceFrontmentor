@@ -5,21 +5,13 @@ import { BsCart3 } from "react-icons/bs";
 import { useState } from "react";
 import { useDispatch } from 'react-redux';
 
-const Description = () => {
+const Description = ({Product}) => {
 
   const [count, setCount] = useState(0)
 
   const dispatch = useDispatch();
 
-  const Product = {
-    company: "sneaker company",
-    title: "Fall Limited Edition Sneakers",
-    description:
-      "these low-profile sneakers are your perfect casual wear companion. Feacturing a durable rubber outer sole, they´ll withstand everything the weather can offer.",
-    price: 250.0,
-    discount: 0.5,
-    count:0
-  };
+ 
 
   const add = ()=>{
     setCount(count + 1)

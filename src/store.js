@@ -1,7 +1,15 @@
 import { createStore } from 'redux';
 
 const initialState = {
-    data: null,
+    data: {
+      company: "",
+      title: "",
+      description:
+        "",
+      price: 0,
+      discount: 0,
+      count:0,
+    }
   };
 
   const reducer = (state = initialState, action) => {

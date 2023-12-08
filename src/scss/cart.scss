@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    cursor: pointer;
     position: relative;
 }
 .cart .countCart{
@@ -34,4 +33,7 @@
 }
 .avatarImg:hover{
     border: 2px solid var(--Orange-main);
+}
+.iconCart{
+    cursor: pointer;
 }
