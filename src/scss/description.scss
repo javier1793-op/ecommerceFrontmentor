@@ -22,3 +22,65 @@
     color: var(--Dark-grayish-blue);
     line-height: 1.5;
 }
+.priceProducto{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.priceProducto .Price{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.Price h3{
+    font-size: 1.7rem;
+}
+.Price .percentage{
+    color: var(--Orange-main);
+    font-weight: 700;
+    background: var(--Pale-orange);
+    padding:3px  7px;
+    border-bottom: 0;
+    border-radius: 5px;
+}
+.discount h4{
+    color: var(--Grayish-blue);
+    text-decoration: line-through;
+}
+.addCart{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.addCart .count{
+    width: 9rem;
+    background: var(--Light-grayish-blue);
+    padding: .7rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.count .icon{
+    color: var(--Orange-main);
+    cursor: pointer;
+}
+.addCart button{
+    width: 15rem;
+    padding: .8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: var(--Orange-main);
+    color: var(--White-main);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: .3s;
+}
+button:hover{
+    background: #e1ac6a;
+    box-shadow: 0 4px 6px -1px rgba(225, 172, 106, 0.8);
+}
