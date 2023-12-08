@@ -1,0 +1,48 @@
+.contentGallery{
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contentGallery .primaryImg{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primaryImg .productoPrimary{
+    height: 100%;
+    border-radius: 15px;
+}
+.contentGallery .secondaryImg{
+    width: 100%;
+    height: 15vh;
+    padding: 0 7.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contentImg{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px;
+}
+
+.productMin{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.productMin.active{
+   border: 2px solid var(--Orange-main);
+    opacity: 50%;
+}
+.productMin:hover{
+    opacity: 50%;
+}

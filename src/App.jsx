@@ -1,6 +1,7 @@
 
 import './App.css'
 import Nav from './Components/Nav'
+import Shopping from './Components/Shopping'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
      <main>
       <Nav/>
+      <Shopping/>
      </main>
     </>
   )
