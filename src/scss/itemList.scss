@@ -1,0 +1,39 @@
+.contentItemList{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentItemList .imgItem{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5px;
+}
+.descriptionItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 0;
+}
+.nameProduct{
+    font-size:1rem;
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+}
+.priceItem{
+    display: flex;
+    align-items: center;
+    color: var(--Dark-grayish-blue);
+    font-size: 1rem;
+    gap: 1rem;
+}
+.totalItem{
+   
+    font-size: 1rem;
+    color: var(--Black-main);
+    font-weight: 700;
+}
+.iconDelete{
+    color: var(--Grayish-blue);
+    cursor: pointer;
+}

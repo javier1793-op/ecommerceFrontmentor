@@ -25,8 +25,8 @@ const Description = ({Product}) => {
   }
 
   const handleProduct = () => {
-    let productSend = Product;
-    productSend.count= count;
+    let productSend = { ...Product };
+  productSend.count = count;
     dispatch({ type: 'SET_DATA', payload: productSend });
   };
 
