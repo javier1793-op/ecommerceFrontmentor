@@ -1,0 +1,42 @@
+#portal{
+    --Orange-main: hsl(26, 100%, 55%);
+    --Pale-orange: hsl(25, 100%, 94%);
+    --Very-dark-blue: hsl(220, 13%, 13%);
+    --Dark-grayish-blue: hsl(219, 9%, 45%);
+    --Grayish-blue: hsl(220, 14%, 75%);
+    --Light-grayish-blue: hsl(223, 64%, 98%);
+    --White-main: hsl(0, 0%, 100%);
+    --Black-main: hsl(0, 0%, 0%); 
+  }
+
+  .contentModalgallery {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgba(66, 65, 65, 0.9); /* Gris con 50% de opacidad */
+    z-index: 1000;
+    color: var(--White-mains);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contentModalgallery .primaryModal{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: end;
+  }
+  .primaryModal .iconCloseModal{
+    color: var(--White-main);
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+ .imgPrimayModal{
+    width: 30vw;
+    height: 65vh;
+    border-radius: 20px;
+  }
