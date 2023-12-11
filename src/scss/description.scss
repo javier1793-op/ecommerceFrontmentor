@@ -84,3 +84,24 @@ button:hover{
     background: #e1ac6a;
     box-shadow: 0 4px 6px -1px rgba(225, 172, 106, 0.8);
 }
+
+@media(max-width: 1100px){
+    .contentDescription{
+        width: 100%;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .priceProducto{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .addCart{
+        flex-direction: column;
+    }
+    .addCart .count{
+        width: 100%;
+    }
+    .addCart button{
+        width: 100%;
+    }
+ }

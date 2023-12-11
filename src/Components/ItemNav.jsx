@@ -1,5 +1,6 @@
 import '../scss/itemNav.scss'
 import Logo from '../img/logo.svg'
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const ItemNav = () => {
 
@@ -29,6 +30,7 @@ const ItemNav = () => {
   return (
     <>
         <div className="contentItem">
+        <GiHamburgerMenu className='iconMenu' />
             <img src={Logo} alt="logotipo" />
             <section className="item">
               {menu.map((item)=>(
