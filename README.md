@@ -8,7 +8,7 @@
 ### Links
 
 - Solution URL: [GIT](https://javier1793-op.github.io/ecommerceFrontmentor/)
-- Live Site URL: [PAGE](https://javier1793-op.github.io/message-Frontmentor//)
+- Live Site URL: [PAGE](https://javier1793-op.github.io/ecommerceFrontmentor/)
 
 
 
