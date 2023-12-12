@@ -1,8 +1,12 @@
 import '../scss/itemNav.scss'
 import Logo from '../img/logo.svg'
 import { GiHamburgerMenu } from "react-icons/gi";
+import MenuMovil from './MenuMovil';
+import { useState } from 'react';
 
 const ItemNav = () => {
+
+  const [movil, setMovil] = useState(false)
 
   const menu=[
     {
@@ -29,8 +33,19 @@ const ItemNav = () => {
 
   return (
     <>
+    {movil &&
+    <MenuMovil
+        menu={menu}
+        setMovil={setMovil}
+      />
+    }
+      
         <div className="contentItem">
-        <GiHamburgerMenu className='iconMenu' />
+        <GiHamburgerMenu 
+        className='iconMenu'
+        onClick={()=>{setMovil(true)}}
+        />
+
             <img src={Logo} alt="logotipo" />
             <section className="item">
               {menu.map((item)=>(

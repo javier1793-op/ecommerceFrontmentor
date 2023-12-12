@@ -10,6 +10,7 @@
 @media(max-width: 1100px){
     .contentShopping{
         flex-direction: column;
+        flex-wrap: nowrap;
         gap: 1rem;
         padding: 0;
     }

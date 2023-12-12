@@ -1,0 +1,37 @@
+.contentMenuMovil{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background: rgba(34, 33, 33, 0.9); 
+    z-index: 1000;
+    color: var(--White-mains);
+}
+.NavMovil{
+    background: var(--White-main);
+    width: 70%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+.CloseMovil{
+    font-size: 1.5rem;
+    color: var(--Black-main);
+    font-weight: 700;
+    cursor: pointer;
+}
+.CloseMovil:hover{
+    color: var(--Orange-main);
+}
+.navItemMovil{
+    cursor: pointer;
+    font-weight: 700;
+}
+.navItemMovil:hover{
+    border-bottom: 0;
+    font-weight: 700;
+    color: var(--Orange-main);
+}

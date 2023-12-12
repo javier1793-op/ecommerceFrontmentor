@@ -2,6 +2,7 @@ import "../scss/gallery.scss";
 
 import { useState } from "react";
 import Modalgallery from "./Modalgallery";
+import GalleryMovil from "./GalleryMovil";
 
 const Gallery = ({ gallery }) => {
   const [imgPort, setImgPort] = useState(gallery[0].imgBig);
@@ -21,7 +22,11 @@ const Gallery = ({ gallery }) => {
       imgPort={imgPort}
       setOpenModal={setOpenModal}
       />}
+      
       <div className="contentGallery">
+        <GalleryMovil
+        gallery={gallery}
+      />
         <section className="primaryImg">
           <img
             src={imgPort}
